@@ -8,4 +8,4 @@ class QueryAnalysis(BaseModel):
     
     missing_information: list[str]
     
-    clarification_question: str | None
+    clarification_question: str #| None
